@@ -1,3 +1,8 @@
 # itsjxnah.github.io
 
-Hello
+Hey there!
+
+We are developing a HTML and CSS side. 
+
+
+Partner: @Kobolt13371
