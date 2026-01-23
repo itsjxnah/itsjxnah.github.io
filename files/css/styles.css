@@ -20,7 +20,7 @@ h1 {
     color: #ffffff;
 }
 
-/*==== Class config ====*/
+/*==== Classes configs ====*/
 .text-center {
     text-align: center;
 }
@@ -30,4 +30,26 @@ h1 {
   min-height: 95vh;
   display: grid;
   place-items: center;
+}
+
+.top-left {
+  position: fixed;
+  top: 20px;
+  left: 60px;
+
+  bottom: auto;
+  right: auto;
+
+  margin: 0;
+  transform: none;
+
+  z-index: 9999;
+}
+
+.ul-list-style {
+    color: darkgrey;
+}
+
+.ul-title-style {
+    color: mediumpurple;
 }
