@@ -10,7 +10,7 @@
 
 /*==== General config ====*/
 body {
-    background-color: #0c3636;
+    background-color: #344e41;
     color: #ffffff;
     font-family: "Segoe UI", sans-serif;
 }
@@ -20,6 +20,9 @@ h1 {
     color: #ffffff;
 }
 
+a {
+   color: grey; 
+}
 /*==== Classes configs ====*/
 .text-center {
     text-align: center;
@@ -46,10 +49,34 @@ h1 {
   z-index: 9999;
 }
 
-.ul-list-style {
-    color: darkgrey;
+.top-right {
+  position: fixed;
+  top: 20px;
+  right: 60px;
+
+  bottom: auto;
+  left: auto;
+
+  margin: 0;
+  transform: none;
+
+  z-index: 9999;
 }
 
 .ul-title-style {
-    color: mediumpurple;
+    color: #a2b18a;
+    font-size: 25px;
+}
+
+.ul-list-style {
+    color: darkgrey;
+    font-size: 19px;
+}
+
+.ul-socials-github {
+    font-size: 20px;
+}
+
+.ul-delete-space-bottom {
+    margin-bottom: -5px;
 }
